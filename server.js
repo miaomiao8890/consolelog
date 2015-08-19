@@ -1,7 +1,7 @@
 var PORT = 9008,
     WebSocketServer = require('ws').Server,
     wss = new WebSocketServer({port: PORT}),
-    pool = [];
+    pool = []; 
 
 console.log('server start,port:' + PORT);
 
